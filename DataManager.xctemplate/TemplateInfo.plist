@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>Description</key>
+	<string>Create DataManager for work with UICollectionView and UITableView</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the file to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>File:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>UITableView</string>
+			<key>Description</key>
+			<string>What kind of Swift source to create</string>
+			<key>Identifier</key>
+			<string>fileType</string>
+			<key>Name</key>
+			<string>DataManager for:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>UITableView</string>
+				<string>UICollectionView</string>
+			</array>
+		</dict>
+		<dict>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>Full name of product</string>
+			<key>Identifier</key>
+			<string>productFullName</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>___VARIABLE_productName___DataManager.swift</string>
+			<key>Name</key>
+			<string>Full name:</string>
+		</dict>
+	</array>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Summary</key>
+	<string>Create DataManager file for work with UICollectionView and UITableView</string>
+</dict>
+</plist>
