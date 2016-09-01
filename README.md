@@ -3,7 +3,7 @@
 What is this?
 ---------------------
 
-DataManager is a Xcode Template who make work with UICollectionView and UITableView very simple. You can just create this file, install required types and connect in main class! 
+DataManager is a Xcode Template who make work with UIPageViewController, UICollectionView and UITableView very simple. You can just create this file, install required types and connect in main class! 
 
 Why you will use this?
 ---------------------

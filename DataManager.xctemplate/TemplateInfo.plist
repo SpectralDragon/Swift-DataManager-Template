@@ -13,7 +13,7 @@
 	<key>DefaultCompletionName</key>
 	<string>File</string>
 	<key>Description</key>
-	<string>Create DataManager for work with UICollectionView and UITableView</string>
+	<string>Create DataManager for work with UIPageViewController, UICollectionView and UITableView</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
@@ -49,6 +49,7 @@
 			<array>
 				<string>UITableView</string>
 				<string>UICollectionView</string>
+				<string>UIPageViewController</string>
 			</array>
 		</dict>
 		<dict>
@@ -69,6 +70,6 @@
 	<key>SortOrder</key>
 	<string>1</string>
 	<key>Summary</key>
-	<string>Create DataManager file for work with UICollectionView and UITableView</string>
+	<string>Create DataManager file for work with UIPageViewController, UICollectionView and UITableView</string>
 </dict>
 </plist>
